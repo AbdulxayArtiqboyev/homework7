@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(199, 219, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 350px;
+    height: 310px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+}
+.box__size{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border-color: rgb(226, 227, 238);
+    
+}
+.box__password{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px ;
+    border-color: rgb(171, 178, 243);
+}
+.box__btn{
+    width: 100%;
+    height: 40px;
+    line-height: 48px;
+    font-size: 20px;
+    border: none;
+    background-color: #0866ff;
+    border-radius: 4px;
+    color: white;
+    height: 46px;
+}
+.box__blank{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    
+}
+.div__item{
+    width: 360px;
+    
+}
+.box__button{
+    width: 60%;
+    height: 40px;
+    line-height: 48px;
+    font-size: 20px;
+    border: none;
+    background-color:rgb(14, 204, 0);
+    border-radius: 4px;
+    color: white;
+    height: 46px;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+.button__item{
+    text-decoration: none;
+    color: green;
+}
+.box__button:hover{
+   transform: scale(1.2)
+}
+.box__btn:hover{
+    transform: scale(1.1);
+}
